@@ -10,7 +10,6 @@ export class EditComponent {
 
   ID = 1;
   event = events.events[this.ID];
-
   body = this.event.body;
   date = this.event.date;
   description = this.event.description;
